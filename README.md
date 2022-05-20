@@ -20,6 +20,6 @@ step2: Install required libraries and update Operating System. (command to insta
 
 Step3: Test your raspberry-pi and GPS module make sure its running before you start coding (link to test your USB based GPS module https://wiki.52pi.com/index.php?title=EZ-0048). make sure to update your Oprating system (command to update your Operating System: sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt clean)
 
-step4:
+step4: create an account on ubidots website. create a device on ubidots and get token ID.
 
-step5: Creating python 3 script (find script in a project folder named: tracker_Script)
+step5: Creating python 3 script (find script in a project folder named: tracker_Script). Make sure that you plug in the token ID in the script which will be maked in the script clearly.
