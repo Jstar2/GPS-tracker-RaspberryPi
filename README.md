@@ -2,7 +2,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Description
-A Raspberry-pi based GPS tracking device allows users to have pin point tracking device (accuracy will be depending on the GPS module you use.
+A Raspberry-pi based GPS tracking device allows users to have pin point tracking device with python3 script. (accuracy will be depending on the GPS module you choose)
 
 # Hardware requrement list
 1)- Raspberry-Pi (3/3b/4/4b/Zero W 2)
@@ -13,4 +13,8 @@ A Raspberry-pi based GPS tracking device allows users to have pin point tracking
 
 # Preparing Raspberry-PI envoirment
 Preperation in steps as following: 
-Step1: 
+
+Step1: Install Oprating system for your raspberry-pi (raspbian lite is recommended, However, any linux based system is fine too)
+
+Step2: Install required libraries 
+
