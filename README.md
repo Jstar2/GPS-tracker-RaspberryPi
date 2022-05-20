@@ -1,11 +1,14 @@
-# GPS-tracker-RaspberryPi
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# GPS-tracker-RaspberryPi-Online-Dashboard
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Description
-A Raspberry-pi based GPS tracking device allows users to have pin point tracking device with python3 script. (accuracy will be depending on the GPS module you choose)
+A Raspberry-pi based GPS tracking device allows users to have pin point tracking device with python3 script.
+
+# Key info before building device.
+Device require internet connection which can be provided by LTE, USB-internet device, WIFI etc. Accuracy will be depending on the GPS module you choose.
 
 # Hardware requrement list
-1)- Raspberry-Pi (3/3b/4/4b/Zero W 2)
+1)- Raspberry-Pi (3 or newer versions )
 
 2)- GPS module (With USB connectivity)
 
@@ -27,3 +30,11 @@ Step5: Creating python 3 script (find script in a project folder named: tracker_
 Step6: Create ubidots dashboard as desired.
 
 All Done.
+
+# Future Ideas
+- 3d printed case could be built
+- Device could be attached with a car if internet is provided with the device. 
+- A radio wave device could be attached for coverage to some geographical area. 
+- Device could be used for tracking journes 
+- Whole project could be converted to raspberry-pi pico with internet connection module
+- Many more things could be done.
